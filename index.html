@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="bg-light">
 
     <!-- nav bar starts -->
-    <nav class="navbar navbar-light bg-dark shadow-sm">
+    <nav class="navbar navbar-light fixed-top bg-dark shadow-sm">
         <div class="container-lg">
             <a class="navbar-brand text-white fw-bold fs-4" href="#home">FemiAde</a>
             <div class="dropdown">
@@ -33,18 +33,23 @@
         </div>
     </nav>
     <!-- nav bar ends -->
-    <Section class="home">
+    <Section class="home py-5">
         <div class="container-lg">
-            <div class="row">
+            <div class="row min-vh-100 align-items-center align-content-center">
                 <div class="col-md-6">
+                    <div class="home-img text-center">
+                        <img src="images/ADEKUNLE_FEMI_FARINDE_PHOTOGRAPH.jpg" class="rounded-circle mw-100" alt="profile img">
+                    </div>
                 </div>
-                <div class="home-img">
-                    <img src="images/ADEKUNLE_FEMI_FARINDE_PHOTOGRAPH.jpg">
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-md-first">
                     <div class="home-text">
-                        <p> Hi there</p>
-                        <h1>I'm a Web Designer</h1>
+                        <p class="text-muted mt-0 mb-1"> Hi there</p>
+                        <h1 class="fw-bold text-blac fs-1">Femi Adekunle</h1>
+                        <h2 class="text-muted  mb-2 test-uppercase fs-5 fw-regular">Digital Product Designer</h2>
+                        <p>I'm always fascinated about design and how technology solves human problems.
+                            My problem solving skills is top-noch and I am ready to collaborate.</p>
+                        <a href="#portfolio">My works</a>
+
                     </div>
                 </div>
             </div>
